@@ -26,7 +26,7 @@
     </p>
     <p>
       If you have used generative AI for grammar, spell checking, and/or basic editing,
-      please so state in the acknowledgement section. If you have used AI for more
+      please state this in the acknowledgement section. If you have used AI for more
       extensive editing, please disclose and describe all your AI-related
       edits, if not in the text, then in a supplementary material or
       appendix This description must include the AI version, prompt, query, etc, to the
@@ -125,10 +125,7 @@
 
   <?php include "includes/footer.php"; ?>
 
-  <!-- Handlebars -->
-  <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
-  <!-- Personal scripts -->
-  <script src="js/committee.js"></script>
+
 
 </body>
 

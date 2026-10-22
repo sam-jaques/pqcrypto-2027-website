@@ -29,25 +29,22 @@
         <p>
           <?php echo $META['shortName']; ?> will take place in
           <?php echo $META['location']; ?> on <?php echo $META['dates']; ?>.
-          <?php echo $META['shortName']; ?> is organized by
-          <a href="https://iacr.org/">the International Association for
-            Cryptologic Research</a> (IACR). The proceedings will be published
+           The proceedings will be published
           by Springer in the LNCS series.
         </p>
         <p>
-          Original contributions on all technical aspects of
-          cryptology are solicited for submission to
-          <?php echo $META['shortName']; ?>, the <?php echo $META['name']; ?>.
-          Submissions are welcomed on any cryptographic topic including but
-          not limited to:
+          The aim of PQCrypto is to serve as a forum for researchers to present results
+and exchange ideas on cryptography in an era with large-scale quantum computers.
+Original research papers on all technical aspects of cryptographic research
+related to post-quantum cryptography are solicited. Topics of interest include
+(but are not restricted to):
         </p>
         <ul>
-          <li>foundational theory and mathematics</li>
-          <li>the design, proposal, and analysis of cryptographic
-            primitives and protocols</li>
-          <li>secure implementation and optimization in hardware or
-            software</li>
-          <li>applied aspects of cryptography</li>
+<li>Cryptosystems that have the potential to be safe against quantum computers such as: code-based, hash-based, isogeny-based, lattice-based,  multivariate-based and MPC-in-the-head constructions.</li>
+<li> Cryptanalysis of post-quantum systems, and quantum cryptanalysis.</li>
+<li> Implementations of, and side-channel attacks on, post-quantum cryptosystems.</li>
+<li>  Integration of and migration to post-quantum cryptography.</li>
+<li> Security models for the post-quantum era.</li>
         </ul>
       </section>
       <aside class="col-lg-4 ps-lg-5 text-center">
@@ -82,11 +79,9 @@
         <p>
           <?php echo $META['shortName']; ?> will operate a two-round review
           system with rebuttal phase. In the first round, the program
-          committee selects the submissions which are considered of value for
-          proceeding to the second round, and the authors receive the first
-          round notification with review comments. The authors of the
-          selected submissions are invited to submit a text-based rebuttal
-          letter to the review comments.
+          committee reviews the papers and writes reviews with comments and questions, and the authors receive the first
+          round notification with review comments. The authors are invited to submit a text-based rebuttal
+          letter to the review comments. Some submissions may be rejected in the first round.
         </p>
         <p>
           The submissions that have not been selected during the first round
@@ -102,45 +97,14 @@
     </div>
 
 
-    <div class="row">
-      <section class="col-md-6">
-        <h3 class="pageSubtitle mt-4">
-          Awards
-        </h3>
-        <p>
-          The Program Committee may choose a paper to receive an overall best
-          paper award. In a continuing effort to promote independent work by
-          researchers at an early stage in their career, the Program
-          Committee may also award a prize for the best paper authored
-          exclusively by early-career researchers. To be eligible, all
-          co-authors must be studying full/part-time or have received their
-          degree in 2019 or later. As usual, awards will only be given if
-          deserving papers are identified.
-        </p>
-      </section>
-      <section class="col-md-6">
-        <h3 class="pageSubtitle mt-4">
-          Stipends
-        </h3>
-        <p>
-          Students whose papers have been accepted and who present their
-          talks at the conference will have their registration waived. A
-          limited number of stipends are available to those unable to obtain
-          funding to attend the conference. Students, whose papers are
-          accepted and who will present the paper themselves, are encouraged
-          to apply if such assistance is needed. Requests for stipends should
-          be sent to the general chair(s).
-        </p>
-      </section>
-    </div>
-
     <h3 class="pageSubtitle mt-4">
       Program committee
     </h3>
-
+<p> Full committee to be determined. Confirmed members:</p>
     <div id="errorBox"></div>
 
     <div id="committee" class="row">
+
       <!-- Handlebars import of PC members -->
       <script id="committee-member" type="text/x-handlebars-template">
         {{#each committee}}
@@ -232,9 +196,9 @@
 
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <a href="mailto:doNotEmailMe@fakeDomain.com" aria-label="Send mail to the program chair(s)">
+        <a href="mailto:pqcrypto2027@easychair.org" aria-label="Send mail to the program chair(s)">
           <img src="images/icons/mail.svg" class="icon" />
-        </a> doNotEmailMe@fakeDomain.com
+        </a> pqcrypto2027@easychair.org
       </div>
     </div>
 
@@ -268,9 +232,9 @@
 
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <a href="mailto:reallyDoNotEmailMe@fakeDomain.com" aria-label="Send mail to the general chair(s)">
+        <a href="mailto:pqcryp27@uwaterloo.ca" aria-label="Send mail to the general chair(s)">
           <img src="images/icons/mail.svg" class="icon" />
-        </a> reallyDoNotEmailMe@fakeDomain.com
+        </a> pqcrypto2027@uwaterloo.ca
       </div>
     </div>
 
@@ -279,7 +243,7 @@
   <?php include "includes/footer.php"; ?>
 
   <!-- Handlebars -->
-  <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.10/dist/handlebars.min.js"  type="text/javascript" integrity="sha384-SoqWttrT0kCFnwAKU794AqlRj1nmM9VO+d76IkRVSwyEFTiq76rJQ72pG+gbRO7e" crossorigin="anonymous"></script>
   <!-- Personal scripts -->
   <script src="js/committee.js"></script>
 

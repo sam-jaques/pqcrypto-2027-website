@@ -245,8 +245,8 @@
   <?php include "includes/footer.php"; ?>
 
   <!-- Handlebars and Luxon -->
-  <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js"></script>
-  <script src="https://iacr.org/libs/js/luxon/luxon.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.10/dist/handlebars.min.js"  type="text/javascript" integrity="sha384-SoqWttrT0kCFnwAKU794AqlRj1nmM9VO+d76IkRVSwyEFTiq76rJQ72pG+gbRO7e" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.7.2/build/global/luxon.min.js" integrity="sha384-MPG/j0tMZel8D/wdSK2M2n+fUXFQ6lHE3r5wnJZ25xVC8KKtBOvT9BGMOmLfSxGT" crossorigin="anonymous"></script>
 
   <!-- Personal scripts -->
   <script src="js/tooltips.js"></script>

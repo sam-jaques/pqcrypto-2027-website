@@ -26,7 +26,8 @@ function showDate($key, $title) {
   <h4 class="customCardHeader">
     Important dates
   </h4>
-  <?php showDate('submitdate', 'Submission deadline'); ?>
+  <?php showDate('abstractdate', 'Abstract submission deadline'); ?>
+  <?php showDate('submitdate', 'Full paper submission deadline'); ?>
   <?php showDate('firstRound', 'First round notification'); ?>
   <?php showDate('rebuttalDue', 'Rebuttal deadline'); ?>
   <?php showDate('finalNotif', 'Final notification'); ?>

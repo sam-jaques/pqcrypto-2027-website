@@ -49,9 +49,9 @@
 
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <a href="mailto:doNotEmailMe@fakeDomain.com" aria-label="Send mail to the general chair(s)">
+          <a href="mailto:pqcryp27@uwaterloo.ca" aria-label="Send mail to the general chair(s)">
             <img src="images/icons/mail.svg" class="icon" />
-          </a> doNotEmailMe@fakeDomain.com
+          </a> pqcrypto2027@uwaterloo.ca
         </div>
       </div>
 
@@ -85,9 +85,9 @@
 
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <a href="mailto:reallyDoNotEmailMe@fakeDomain.com" aria-label="Send mail to the program chair(s)">
+          <a href="mailto:pqcrypto2027@easychair.org" aria-label="Send mail to the program chair(s)">
             <img src="images/icons/mail.svg" class="icon" />
-          </a> reallyDoNotEmailMe@fakeDomain.com
+          </a> pqcrypto2027@easychair.org
         </div>
       </div>
 

@@ -17,8 +17,8 @@
             </h1>
           </div>
           <div class="headerLogo">
-            <a href="https://iacr.org/">
-              <img id="logo" class="d-none d-lg-block mx-auto" src="https://iacr.org/img/logo/iacrlogo_small.png" title="International Association for Cryptologic Research">
+            <a href="https://pqcrypto.org/conferences.html">
+              <img id="logo" class="d-none d-lg-block mx-auto" src="images/pqc-logo.svg" title="PQCrypto Logo">
             </a>
           </div>
           <!-- TODO: likely add .me-md-3 after fixing layout -->
@@ -53,124 +53,42 @@
             Technical program
           </a>
           <div class="dropdown-menu">
-            <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">
-              Main program
-            </a> -->
-            <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'awards.php' ?>">
-              Awards
-            </a> -->
-            <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'affiliated.php' ?>">
-              Affiliated events
-            </a> -->
-            <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">
-              Invited talks
-            </a>
-            <a class="dropdown-item" href="<?php echo rootPath() . 'rumpsession.php' ?>">
-              Rump session
-            </a> -->
-            <!-- <hr>
-            <a class="dropdown-item" href="<?php echo rootPath() . 'acceptedpapers.php' ?>">
-              Accepted papers
-            </a> -->
             <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">
               Call for papers
             </a>
             <a class="dropdown-item" href="<?php echo rootPath() . 'aipolicy.php' ?>">
               AI tool policy
             </a>
-            <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">
+            <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">
               Paper submission
-            </a> -->
+            </a>
           </div>
         </li>
-        <!-- <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
             Attend
-          </a> -->
+          </a>
         <!-- TODO: this is apparently supposed to be a ul not a div for the dropdown menu. also why are they so far left?? -->
-        <!-- <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
-              Registration
-            </a> -->
-        <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
               Venue & travel
-            </a> -->
-        <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
+            </a>
+        <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
               Accommodations
             </a>
             <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
               Tourism
-            </a> -->
-        <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
-              Financial support
-            </a>
-            <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
-              Visas
-            </a> -->
-        <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
-              Remote attendance
-            </a>
-            <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
-              Swag
             </a>
             <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
               Code of conduct
-            </a> -->
-        <!-- </div>
-        </li> -->
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
-            Sponsors
-          </a>
+            </a>
+        </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
             Contact
           </a>
         </li>
-        <!-- <li class="nav-item dropdown color-modes">
-          <a class="nav-link" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
-            <svg class="bi my-1 theme-icon-active">
-              <use href="#circle-half"></use>
-            </svg>
-            <span id="bd-theme-text"></span>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
-            <li>
-              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
-                <svg class="bi me-2 opacity-50 theme-icon">
-                  <use href="#sun-fill"></use>
-                </svg>
-                Light
-                <svg class="bi ms-auto d-none">
-                  <use href="#check2"></use>
-                </svg>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
-                <svg class="bi me-2 opacity-50 theme-icon">
-                  <use href="#moon-stars-fill"></use>
-                </svg>
-                Dark
-                <svg class="bi ms-auto d-none">
-                  <use href="#check2"></use>
-                </svg>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
-                <svg class="bi me-2 opacity-50 theme-icon">
-                  <use href="#circle-half"></use>
-                </svg>
-                Auto
-                <svg class="bi ms-auto d-none">
-                  <use href="#check2"></use>
-                </svg>
-              </button>
-            </li>
-          </ul>
-        </li> -->
       </ul>
     </div>
   </nav>

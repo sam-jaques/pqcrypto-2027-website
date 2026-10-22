@@ -108,10 +108,7 @@
     <p>
       <?php echo $META['shortName']; ?> will take place in
       <?php echo $META['city'] . ', ' . $META['country']; ?>
-      on <?php echo $META['dates']; ?>.
-      <?php echo $META['shortName']; ?> is organized by
-      <a href="https://iacr.org/">the International Association for
-        Cryptologic Research</a> (IACR). This will be the <?php echo $META['name']; ?>.
+      on <?php echo $META['dates']; ?>. This will be the <?php echo $META['name']; ?>.
     </p>
 
     <!-- NOTE: when registration is open, uncomment the giant
@@ -170,34 +167,10 @@
           </div> -->
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              20 Mar 202X
+              7 Oct 2027
             </h6>
             <p class="col-7 col-md-6 col-lg-8">
               Website launched
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              20 Mar 202X
-            </h6>
-            <p class="col-7 col-md-6 col-lg-8">
-              Website launched
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              20 Mar 202X
-            </h6>
-            <p class="col-7 col-md-6 col-lg-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque. Consectetur facere hic voluptatibus sint est dicta repellat exercitationem fuga voluptatem pariatur quae, architecto accusamus laudantium odit. Aliquid, excepturi inventore.
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              20 Mar 202X
-            </h6>
-            <p class="col-7 col-md-6 col-lg-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque. Consectetur facere hic voluptatibus sint est dicta repellat exercitationem fuga voluptatem pariatur quae, architecto accusamus laudantium odit. Aliquid, excepturi inventore.
             </p>
           </div>
         </article>

@@ -10,11 +10,11 @@
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/circuit.jpg");
+  background-image: url("../images/banners/qnc.jpg");
 }
 
 .headerGradient {
-  background: rgba(204, 132, 30, 0.6);
+  background: #FED34C;
   background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
   background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
   background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
@@ -22,22 +22,22 @@
 }
 
 .headerTitle {
-  color: #2E3192;
+  color: #000000;
 }
 
 .headerInfoTop, .headerInfoBottom {
-  color: #2E3192;
+  color: #000000;
 }
 
 
 
 /***** Main Content (e.g. h1-h6, a, text, etc) *****/
 a {
-  color: #0F773C;
+  color: #DA9B00;
 }
 
 a:hover {
-  color: #CB831E;
+  color: #FED34C;
 }
 
 .icon {
@@ -45,19 +45,19 @@ a:hover {
 }
 
 .indPageTitle {
-  color: #0F773C;
+  color: #000000;
 }
 
 .pageSubtitle {
-  color: #CB831E;
+  color: #EAAB00;
 }
 
 .subSubtitle {
-  color: #0F773C;
+  color: #000000;
 }
 
 .dateTitle {
-  color: #CB831E;
+  color: #000000;
 }
 
 /* NOTE: custom button colors typically derived from the two most common colors in a given theme */
@@ -91,23 +91,23 @@ code {
 }
 
 .customCardHeader {
-  background-color: rgba(203, 131, 30, 0.4);
-  color: #1F2161;
+  background-color: #EAAB00;
+  color: #000000;
 }
 
 .customAlert-warm {
-  background-color: rgba(255, 203, 13, 0.3);
-  border-color: rgba(255, 203, 13, 0.6);
+  background-color: #DFDFDF;
+  border-color: #787878;
 }
 
 .customAlert-cool {
-  background-color: rgba(15, 119, 60, 0.2);
-  border-color: rgba(15, 119, 60, 0.5);
+  background-color: #DFDFDF;
+  border-color: #787878;
 }
 
 .customCardFooter {
   /* NOTE: typically this is a more transparent version of the card header bg color */
-  background-color: rgba(203, 131, 30, 0.1);
+  background-color: #F2EDA8;
 }
 
 

@@ -39,20 +39,21 @@
           This information is not yet available. Thank you for your patience.
       </p> -->
 
-    <h5 class="text-center alert customAlert-cool my-3">
+  <!--   <h5 class="text-center alert customAlert-cool my-3">
       The submission server is not yet open. Please check back later.
-    </h5>
+    </h5> -->
 
     <!-- NOTE: when the submission server is ready, supply the link in the
       button and remove the statement above. -->
-    <!-- <a href="#" target="_blank" class="btn btn-lg blockBtn
-      customBtn-warm mx-auto w-75" role="button">Submission Server</a> -->
-
+      <p>
+    <a href="https://easychair.org/conferences/?conf=pqcrypto2027" target="_blank" class="btn btn-lg blockBtn
+      customBtn-warm mx-auto w-75" role="button">Submission Server (Easychair)</a>
+</p>
     <!-- NOTE: below is placeholder content derived from a past conference.
       Please uncomment and replace contents with your own content when ready.
       -->
     <div class="alert customAlert-cool">
-      Since May 2025, the IACR has implemented <a href="aipolicy.php">a policy on the use of AI tools by authors</a>.
+      Starting in 2026, PQCrypto has implemented <a href="aipolicy.php">a policy on the use of AI tools by authors</a>.
     </div>
 
     <div class="row">
@@ -61,38 +62,31 @@
           Instructions for authors
         </h3>
         <p>
-          Submissions must be at most 30 pages excluding any auxiliary
-          supporting material, and using the Springer LNCS format (in
-          particular, do not modify the LNCS default font sizes or
-          margins). Details on the Springer LNCS format can be
+          Submissions must be at most 30 pages appendices and 
+        references, and using the Springer LNCS format (in
+          particular,  and must be in a single column format in 10pt fonts using the
+default llncs class without adjustments. Details on the Springer LNCS format can be
           obtained <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.
-          It is strongly encouraged that submissions are processed in
-          LaTeX. All submissions must have page numbers (e.g., using
-          LaTeX command <code>\pagestyle{plain}</code>). Submissions
-          must be submitted electronically in PDF format.
+          Additional material (datasets, code, long machine proofs, etc.) can be submitted
+as separate file.
+Reviewers are not required to read appendices
+and additional material,
+and submissions are expected to be intelligible and complete without
+them.
         </p>
         <p>
-          All submissions will be blind-refereed and thus must be
-          anonymous, with no author names, affiliations,
-          acknowledgments, or obvious references. Submissions should
-          begin with a title, a short abstract, and a list of keywords,
-          followed by an introduction, a main body, an appendix (if
-          any), and references, within 30 pages. The introduction should
-          summarize the contributions of the paper at the level
-          understandable for a non-expert reader.
-        </p>
-        <p>
-          Optionally, if an author desires, a clearly-marked auxiliary
-          supporting material can be appended to the submission. The
-          auxiliary supporting material has no prescribed form or page
-          limit and might be used, for instance, to provide program
-          code, additional experimental data, etc. Alternatively, the
-          auxiliary supporting material can be submitted as a separate
-          file from the submission. The reviewers are not required to
-          read the auxiliary supporting material and submissions should
-          be intelligible without it. The final published version of an
-          accepted paper is expected to closely match the submitted 30
-          pages.
+          <b>The review process is double-blinded.</b> The submission should begin with a title, a short abstract, and a list of key
+words. Its introduction should summarize the contributions of the paper at a
+level appropriate for a non-specialist reader. Submissions ignoring these
+guidelines may be rejected without further consideration.
+
+All papers must be submitted with a meaningful
+abstract by the initial submission deadline.
+This is a firm deadline.
+Papers not registered by this
+deadline will not be considered.
+Authors may update or withdraw their submission
+at any time between the initial and final submission deadline.
         </p>
         <p class="alert customAlert-warm">
           <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" />
@@ -107,37 +101,21 @@
 
     <p>
       For papers that are accepted, the length of the proceedings
-      version will be at most 30 pages using Springer’s standard
-      fonts, font sizes, and margins. The proceedings will be
-      published by Springer-Verlag in the Lecture Notes in Computer
-      Science series and will be available at the
-      conference. Authors of accepted papers must complete
-      the <a href="https://www.iacr.org/docs/">IACR copyright assignment
-        form</a> for their work to be published in the
-      proceedings. Moreover, authors of accepted papers must
-      guarantee that their paper will be presented at the conference
-      and agree that the presentations will be video recorded during
-      the event.
+      version will be at most 35 pages using Springer’s standard
+      fonts, font sizes, and margins, <b>excluding</b> references. The additional material will not be part of the conference proceedings.
+
     </p>
     <p>
-      Submissions must not substantially duplicate work that any of
-      the authors has published elsewhere or has submitted in
-      parallel to a journal or any other conference/workshop that
-      has proceedings. Accepted submissions may not appear in any
-      other conference or workshop that has proceedings. IACR
-      reserves the right to share information about submissions with
-      other program committees to detect parallel submissions and
-      the <a href="https://iacr.org/docs/irregular.pdf">IACR policy on
-        irregular submissions</a> will be strictly enforced.
+     Submissions must not substantially duplicate work that any of the authors has
+published in a journal or a conference/workshop with proceedings, or has
+submitted/is planning to submit before the author notification deadline to a
+journal or other conferences/workshops that have proceedings.
     </p>
     <p>
       Articles will not be reviewed by reviewers who have a conflict
       of interest with at least one author of the submission. Submissions
       must adhere to the <a href="https://www.iacr.org/docs/conflicts.pdf" target="_blank">
         IACR Policy on Conflicts of Interest</a>.
-    </p>
-    <p>
-      The Program Committee may select a paper for the best paper award.
     </p>
 
     <h3 class="pageSubtitle mt-4">

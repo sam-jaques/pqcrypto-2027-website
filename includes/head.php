@@ -4,7 +4,15 @@
 // at the beginning of the <head> tag.
 //
 $META = json_decode(file_get_contents("json/metadata.json"), true);
-$META['url'] = 'https://' . $META['eventtype'] . '.iacr.org/' . $META['year'];
+$META['url'] = 'https://pcrypto2027.ca';
+// Machine-readable metadata (schema.org, Open Graph) needs ISO 8601 dates,
+// while metadata.json may hold dates formatted for display ("23 Sep 2045").
+// Falls back to the original string if it can't be parsed.
+function isoDate($date)
+{
+  $time = strtotime($date);
+  return $time === false ? $date : date('Y-m-d', $time);
+}
 
 // Set the root path in the nav menu.
 function rootPath()
@@ -14,20 +22,12 @@ function rootPath()
   global $META;
 
   // NOTE: if you are developing on a local machine, then you probably
-  // should use "/" as your root path. On the iacr.org server the URL is
-  // prefixed by the year (e.g., crypto.iacr.org/2020). We distinguish these
-  // cases using the $_SERVER['HTTP_HOST'] variable.
+  // should use "/" as your root path. 
 
   if (empty($_SERVER['HTTP_HOST'])) {
     return "/";
   }
   $length = strlen($_SERVER['HTTP_HOST']);
-  if (
-    $length >= 8 &&
-    substr($_SERVER['HTTP_HOST'], -8) === 'iacr.org'
-  ) {
-    return "/" . strval($META['year']) . "/";
-  }
   return "/";
 }
 ?>
@@ -37,7 +37,7 @@ function rootPath()
 <meta name="description" content="<?php echo $META['name']; ?>" />
 
 <!-- Generic bootstrap -->
-<link href="https://iacr.org/libs/css/bootstrap/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Styling -->
 <link rel="stylesheet" href="<?php echo rootPath(); ?>styles/main.css?v=2">
@@ -68,18 +68,8 @@ function rootPath()
       },
       "name": "Conference Venue"
     },
-    "organizer": {
-      "@context": "http://schema.org",
-      "@type": "NGO",
-      "legalName": "International Association for Cryptologic Research",
-      "alternateName": "IACR",
-      "sameAs": "https://iacr.org/",
-      "naics": "813920",
-      "logo": "https://iacr.org/img/logo/iacrlogo_small.png"
-    },
     "name": "<?php echo $META['shortName']; ?>",
     "description": "<?php echo $META['name']; ?>",
-    "image": "https://iacr.org/img/logo/iacrlogo_small.png"
   }
 </script>
 <!-- open graph for facebook. There is no type for event. -->
@@ -88,16 +78,12 @@ function rootPath()
 <meta property="event:start_time" content="<?php echo $META['startdate']; ?>" />
 <meta property="event:end_time" content="<?php echo $META['enddate']; ?>" />
 <meta property="og:description" content="<?php echo $META['name']; ?>" />
-<meta property="og:image" content="https://iacr.org/img/logo/iacrlogo_small_og.png" />
 <meta property="og:latitude" content="<?php echo $META['latitude']; ?>" />
 <meta property="og:longitude" content="<?php echo $META['longitude']; ?>" />
 <!-- metadata for twitter. -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@iacr_news" />
 <meta name="twitter:description" content="<?php echo $META['name']; ?>" />
-<meta property="twitter:image" content="https://iacr.org/img/logo/iacr_wordmark_twitter.png" />
 <!-- apple format for iMessage and search -->
-<link rel="apple-touch-icon" href="https://iacr.org/img/logo/iacrlogo_small.png">
 <script>
   // This makes the meta variables available in javascript as well as PHP.
   <?php echo "var meta=" . json_encode($META, JSON_PRETTY_PRINT) . ";"?>

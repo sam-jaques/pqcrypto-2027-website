@@ -40,7 +40,7 @@
     </h2>
     <!-- NOTE: below is an example of how additional information could be
       formatted on this page -->
-    <h3 class="pageSubtitle mt-4">
+    <!-- <h3 class="pageSubtitle mt-4">
       On-campus accommodations
     </h3>
     <p>
@@ -88,19 +88,23 @@
           student parties while you're with us.
         </p>
       </section>
-    </div>
+    </div> -->
 
     <h3 class="pageSubtitle mt-4">
-      Off-campus accommodations
+      Conference Accommodations
     </h3>
     <p>
-      For those who choose not to stay on-site, the following is a list of
-      hotels that have provided room blocks for
-      <?php echo $META['shortName']; ?>. Those who choose to stay off-site are
-      responsible for making their own reservations. Early reservations are
-      advised since August is a popular tourist season for the area.
+      We have blocked rooms for PQCrypto 2027 at the Delta hotel, across Erb street from the conference center. More information TBD.
+    </p>
+    <p>
+      Other hotels in Waterloo or Kitchener may be available. Consider their proximity to train stops (the 301 "Ion" train), as the train runs every 10 minutes and there is a stop only 250 m from the conference center.
     </p>
     <aside class="alert customAlert-warm">
+      <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" />
+      We will not contact you directly about accommodations. If you receive emails about accommodation, it is likely a phishing scam.
+    </aside>
+
+    <!-- aside class="alert customAlert-warm">
       <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" />
       All prices are subject to change and do not include tax; prices should
       be confirmed by calling the hotels directly. Room blocks may be
@@ -108,40 +112,37 @@
       mention Crypto 2020 when you are making your reservations so you will
       be eligible for any special rates that may be available. Other hotels
       are available in the area.
-    </aside>
+    </aside> -->
 
     <div class="d-flex flex-wrap flex-md-nowrap justify-content-around justify-content-start-md">
       <section class="flex-even mt-3 px-md-4">
         <h4 class="subSubtitle text-center mb-3">
-          Extra Posh Hotel
+          Delta Hotel
         </h4>
         <div class="d-flex">
           <img src="images/icons/location.svg" class="travelIcon" alt="location pin icon" />
           <address>
-            The fancy downtown area
+            110 Erb St. W, Waterloo, ON N2L 0C6
           </address>
         </div>
         <div class="d-flex">
           <img src="images/icons/phone.svg" class="travelIcon" alt="phone icon" />
           <address>
-            458.927.0634<br>
-            Fax: 444.127.1212
+            (519) 514-0404<br>
           </address>
         </div>
         <p class="mt-3">
-          Rates: how much you got?
+          Rates: TBD
         </p>
-        <p>
-          For the most discerning of conference attendees. Free breakfast,
-          wifi, and extra pillows. Even though we can't legally say it,
-          children explicitly unwelcome.
+        <!-- <p>
+          
         </p>
         <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
           Reservations
-        </a>
+        </a> -->
       </section>
 
-      <section class="flex-even mt-4 mt-md-3 px-md-4">
+      <!-- <section class="flex-even mt-4 mt-md-3 px-md-4">
         <h4 class="subSubtitle text-center mb-3">
           Acceptable Inn
         </h4>
@@ -169,7 +170,7 @@
         <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
           Reservations
         </a>
-      </section>
+      </section> -->
     </div>
 
   </main>
