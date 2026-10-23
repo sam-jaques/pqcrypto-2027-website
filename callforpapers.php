@@ -100,7 +100,6 @@ related to post-quantum cryptography are solicited. Topics of interest include
     <h3 class="pageSubtitle mt-4">
       Program committee
     </h3>
-<p> Full committee to be determined. Confirmed members:</p>
     <div id="errorBox"></div>
 
     <div id="committee" class="row">

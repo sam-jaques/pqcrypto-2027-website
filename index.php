@@ -167,6 +167,12 @@
           </div> -->
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
+              23 Oct 2027
+            </h6>
+            <p class="col-7 col-md-6 col-lg-8">
+              PC finalized
+            </p>
+            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
               7 Oct 2027
             </h6>
             <p class="col-7 col-md-6 col-lg-8">

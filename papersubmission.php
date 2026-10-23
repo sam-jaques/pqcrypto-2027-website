@@ -62,7 +62,7 @@
           Instructions for authors
         </h3>
         <p>
-          Submissions must be at most 30 pages appendices and 
+          Submissions must be at most 30 pages, excluding appendices and 
         references, and using the Springer LNCS format (in
           particular,  and must be in a single column format in 10pt fonts using the
 default llncs class without adjustments. Details on the Springer LNCS format can be
