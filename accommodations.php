@@ -94,7 +94,7 @@
       Conference Accommodations
     </h3>
     <p>
-      We have blocked rooms for PQCrypto 2027 at the Delta hotel, across Erb street from the conference center. More information TBD.
+      We have blocked rooms for PQCrypto 2027 at the Delta hotel, across Erb street from the conference center.
     </p>
     <p>
       Other hotels in Waterloo or Kitchener may be available. Consider their proximity to train stops (the 301 "Ion" train), as the train runs every 10 minutes and there is a stop only 250 m from the conference center.
@@ -132,14 +132,14 @@
           </address>
         </div>
         <p class="mt-3">
-          Rates: TBD
+          Rates: CAD$255.00 per night
         </p>
-        <!-- <p>
+        <p>
           
         </p>
-        <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
+        <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://app.marriott.com/resview2?id=1793044384287&key=GRP&app=resvlink" target="_blank">
           Reservations
-        </a> -->
+        </a>
       </section>
 
       <!-- <section class="flex-even mt-4 mt-md-3 px-md-4">
